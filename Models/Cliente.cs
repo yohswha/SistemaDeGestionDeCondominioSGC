@@ -6,14 +6,14 @@ namespace SistemaDeGestionDeCondominio.Models
 	public class Cliente
 	{
         [Key]
-        public int id { get; set; }
-        [required]
+        public int Id { get; set; }
+        [Required]
         public string? Nombre { get; set; }
-        [required]
+        [Required]
         public string? ApellidoPaterno { get; set; }
         public string? ApellidoMaterno { get; set; }
-        public DateTime FechaNacimiento { get; set; }
-        [required]
+        public DateOnly FechaNacimiento { get; set; }
+        [Required]
         public string? Cedula { get; set; }
         public string? Telefono { get; set; }
         public string? Email { get; set; }

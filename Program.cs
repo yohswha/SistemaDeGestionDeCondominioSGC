@@ -1,4 +1,5 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+using SistemaDeGestionDeCondominio.Controllers;
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
