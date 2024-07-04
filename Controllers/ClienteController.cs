@@ -13,7 +13,6 @@ namespace SistemaDeGestionDeCondominio.Controllers
     {
         [Route("api/[controller]")]
 
-        // GET: /<controller>/
         [HttpGet]
         public async Task<IActionResult> GetAllClientes()
         {
